@@ -1,1 +1,1 @@
-web: python3 -m EvaMaria21
+worker: python3 bot.py
