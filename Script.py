@@ -1,8 +1,8 @@
 class script(object):
-    START_TXT = """Hai {}, I am Auto Filter bot 🚀 With Same more Features ✨"""
-    HELP_TXT = """MORE INFORMATION IS HERE✨."""
+    START_TXT = """Hai {}, I am Auto Filter bot 🚀 With Same more Features ✨ \n\n 〽️ Powered by @GroupDcBots"""
+    HELP_TXT = """MORE INFORMATION IS HERE✨.\n\n〽️ Powered by @GroupDcBots"""
     ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
-✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/umlinks>Umlinks</a>
+✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁:〽️ Powered by @GroupDcBots
 ✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
 ✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
 ✯ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
@@ -13,7 +13,7 @@ class script(object):
 - Source - https://github.com/selfie-bd/autofilterv5  
 
 <b>DEVS:</b>
-- <a href=https://t.me/umlinks>@UmLinks</a>"""
+- 〽️ Powered by @GroupDcBots"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and EvaMaria will respond whenever a keyword is found the message
@@ -88,18 +88,22 @@ This module only works for my admins
 • /ban  - <code>to ban a user.</code>
 • /unban  - <code>to unban a user.</code>
 • /channel - <code>to get list of total connected channels</code>
-• /broadcast - <code>to broadcast a message to all users</code>"""
+• /broadcast - <code>to broadcast a message to all users</code>\n\n〽️ Powered by @GroupDcBots"""
     STATUS_TXT = """★ 𝚃𝙾𝚃𝙰𝙻 𝙵𝙸𝙻𝙴𝚂: <code>{}</code>
 ★ 𝚃𝙾𝚃𝙰𝙻 𝚄𝚂𝙴𝚁𝚂: <code>{}</code>
 ★ 𝚃𝙾𝚃𝙰𝙻 𝙲𝙷𝙰𝚃𝚂: <code>{}</code>
 ★ 𝚄𝚂𝙴𝙳 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱
-★ 𝙵𝚁𝙴𝙴 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱"""
+★ 𝙵𝚁𝙴𝙴 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱
+
+〽️ Powered by @GroupDcBots"""
     LOG_TEXT_G = """#NewGroup
 Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
 Added By - {}
+〽️ Powered by @GroupDcBots
 """
     LOG_TEXT_P = """#NewUser
 ID - <code>{}</code>
 Name - {}
+〽️ Powered by @GroupDcBots
 """
