@@ -42,13 +42,13 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            #InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('Updates', url='https://t.me/umlinks')
+            #InlineKeyboardButton('Search', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('Updates', url='https://t.me/Dot_serials')
             ],[
-            InlineKeyboardButton('Help', callback_data='help'),
-            InlineKeyboardButton('About', callback_data='about')
+            #InlineKeyboardButton('Help', callback_data='help'),
+            InlineKeyboardButton('SUPPORT GROUP', url='https://t.me/Dot_serials_bot')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
