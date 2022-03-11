@@ -1,6 +1,6 @@
 class script(object):
     START_TXT = """ I am Auto Filter bot 🤖 With Same more Features ✨ \n\n 〽️ Powered by @Dot_serials_bot"""
-    HELP_TXT = """MORE INFORMATION IS HERE✨.\n\n  #〽️ Powered by @Dot_serials_bot"""
+    HELP_TXT = """MORE INFORMATION IS HERE✨.\n\n'''  #〽️ Powered by @Dot_serials_bot"""
     ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
 ✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁:〽️ Powered by @Dot_serials_bot
 ✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
