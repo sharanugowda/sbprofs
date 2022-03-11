@@ -48,7 +48,7 @@ async def start(client, message):
             ##InlineKeyboardButton('Updates', url='https://t.me/Dot_serials')
             ],[
             #InlineKeyboardButton('Help', callback_data='help'),
-            InlineKeyboardButton('SUPPORT GROUP', url='@profssupportbot')         #'https://t.me/Dot_serials_bot')
+            InlineKeyboardButton('SUPPORT GROUP', url='https://t.me/profssupportbot')         #'https://t.me/Dot_serials_bot')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
