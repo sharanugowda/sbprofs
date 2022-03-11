@@ -45,10 +45,10 @@ async def start(client, message):
             #InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             #InlineKeyboardButton('Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('Updates', url='https://t.me/Dot_serials')
+            ##InlineKeyboardButton('Updates', url='https://t.me/Dot_serials')
             ],[
             #InlineKeyboardButton('Help', callback_data='help'),
-            InlineKeyboardButton('SUPPORT GROUP', url='https://t.me/Dot_serials_bot')
+            InlineKeyboardButton('SUPPORT GROUP', url='@profssupportbot')         #'https://t.me/Dot_serials_bot')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
