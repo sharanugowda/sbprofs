@@ -1,5 +1,5 @@
 class script(object):
-    START_TXT = """ I am Auto Filter bot 🤖 With Same more Features ✨ \n\n 〽️ Powered by @Dot_serials_bot"""
+    START_TXT = """ I am Auto Filter bot 🤖 With Same more Features ✨"""  ## \n\n 〽️ Powered by @Dot_serials_bot"""
     HELP_TXT = """MORE INFORMATION IS HERE✨.\n\n"""
   
  #〽️ Powered by @Dot_serials_bot
