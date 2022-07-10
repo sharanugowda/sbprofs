@@ -20,7 +20,7 @@ async def allowed(_, __, message):
         return True
     return False
 
-@Client.on_message(filters.command(['link', 'plink']) & filters.create(allowed))
+@Client.on_message(filters.command(['cheesylink', 'plink']) & filters.create(allowed))
 async def gen_link_s(bot, message):
     replied = message.reply_to_message
     if not replied:
@@ -37,7 +37,7 @@ async def gen_link_s(bot, message):
     await message.reply(f"🚀 Here is your Link:\nhttps://t.me/{temp.U_NAME}?start={outstr}")
     
     
-@Client.on_message(filters.command(['batch', 'pbatch']) & filters.create(allowed))
+@Client.on_message(filters.command(['cheesybatch', 'pbatch']) & filters.create(allowed))
 async def gen_link_batch(bot, message):
     if " " not in message.text:
         return await message.reply("Use correct format.\nExample <code>/batch https://t.me/umlinks/10 https://t.me/umlinks/20</code>.")
